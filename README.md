@@ -12,7 +12,7 @@ Instead of rewriting the underlying math for Optimal Transport or Variation of I
 
 ## What It Does
 
-- Reads the underlying state geography (e.g., a .json precinct graph) into networkx only once.
-- Maps the stringified Atlas keys (like ["CINCINNATI 23-N_HAMILTON"]) to the internal integer node IDs used by GerryChain.
-- Iterates through thinned .jsonl Atlas chains and translates the assignment dictionaries into valid Partition objects.
+- Reads the underlying state geography (e.g., a `.json` precinct graph) into `networkx` only once.
+- Maps the stringified Atlas keys (like `["CINCINNATI 23-N_HAMILTON"]`) to the internal integer node IDs used by `GerryChain`.
+- Iterates through thinned `.jsonl` Atlas chains and translates the assignment dictionaries into valid Partition objects.
 - Feeds the converted partitions into distance calculators to generate matrices for MCMC convergence analysis.
