@@ -1,6 +1,8 @@
 # Atlas to GerryChain
 A lightweight Python bridge to convert MCMC districting plans from the Atlas format into GerryChain Partition objects for downstream analysis.
 
+*This project is archived and will be incorporated as a part of the [`atlas-posthoc`](https://github.com/franklinxzhou/atlas-posthoc/tree/main) package (some logic will be used in the PACE part) - stay tuned!*
+
 ## The Origin Story
 This project was born out of a standard research bottleneck: bridging two different computational ecosystems to get a single diagnostic pipeline working.
 
